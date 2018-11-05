@@ -1,7 +1,7 @@
-#pragma  once
+ï»¿#pragma  once
 
 /*
-------------------µ¼³öº¯Êı--------------
+------------------å¯¼å‡ºå‡½æ•°--------------
 */
 #include <Windows.h>
 
@@ -25,12 +25,12 @@ DWORD __stdcall XLGetErrorMsg(DWORD dwErrorId, LPTSTR pszBuffer, DWORD & dwSize)
 
 
 /*
-----------------------ÀàĞÍ¶¨Òå-----------------
+----------------------ç±»å‹å®šä¹‰-----------------
 */
 enum enumTaskStatus{
-	enumTaskStatus_Connect = 0,                 // ÒÑ¾­½¨Á¢Á¬½Ó
-	enumTaskStatus_Download = 2,                // ¿ªÊ¼ÏÂÔØ 
-	enumTaskStatus_Pause = 10,                  // ÔİÍ£
-	enumTaskStatus_Success = 11,                // ³É¹¦ÏÂÔØ
-	enumTaskStatus_Fail = 12,                   // ÏÂÔØÊ§°Ü
+    enumTaskStatus_Connect = 0,                 // å·²ç»å»ºç«‹è¿æ¥
+    enumTaskStatus_Download = 2,                // å¼€å§‹ä¸‹è½½ 
+    enumTaskStatus_Pause = 10,                  // æš‚åœ
+    enumTaskStatus_Success = 11,                // æˆåŠŸä¸‹è½½
+    enumTaskStatus_Fail = 12,                   // ä¸‹è½½å¤±è´¥
 };
